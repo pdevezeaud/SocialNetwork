@@ -1,0 +1,17 @@
+{% extends '::base.html.twig' %}
+
+
+{% block body %}
+
+{% block content %}
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Hello World</h1>
+            <p>Ceci est la page d'acceuil de notre application</p>
+            <p><a class="btn btn-primary btn-lg" role="button" href="{{ url('tech_corp_front_about')}}">En savoir plus</a></p>
+    </div>
+</div>
+
+{% endblock content %}
+
+{% endblock body %}
